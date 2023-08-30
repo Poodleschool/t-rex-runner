@@ -111,14 +111,14 @@
         GAMEOVER_CLEAR_TIME: 750,
         GAP_COEFFICIENT: 0.6,
         GRAVITY: 0.2,
-        INITIAL_JUMP_VELOCITY: 70,
+        INITIAL_JUMP_VELOCITY: 1000,
         INVERT_FADE_DURATION: 12000,
         INVERT_DISTANCE: 700,
         MAX_BLINK_COUNT: 3,
         MAX_CLOUDS: 20,
         MAX_OBSTACLE_LENGTH: 9,
         MAX_OBSTACLE_DUPLICATION: 5,
-        MAX_SPEED: 13,
+        MAX_SPEED: 60,
         MIN_JUMP_HEIGHT: 50,
         MOBILE_SPEED_COEFFICIENT: 1.2,
         RESOURCE_TEMPLATE_ID: 'audio-resources',
@@ -135,7 +135,7 @@
      */
     Runner.defaultDimensions = {
         WIDTH: DEFAULT_WIDTH,
-        HEIGHT: 150
+        HEIGHT: 190
     };
 
 
